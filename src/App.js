@@ -5,6 +5,7 @@ import Skills from './Containers/Skill';
 import Project from './Containers/Project';
 import NavBar from './Components/NavBar';
 import Contact from './Containers/Contacts';
+import Experience from './Containers/Experience';
 import PreLoader from './Components/PreLoader/Preloader';
 
 function App() {
@@ -20,6 +21,7 @@ function App() {
 <Route index path='/' element={<Home/>}/>
 <Route path='/skills' element={<Skills/>}/>
 <Route path='/projects' element={<Project/>}/>
+<Route path='/Experience' element={<Experience/>}/>
 <Route path='/contacts' element={<Contact/>}/>
 </Routes>
 

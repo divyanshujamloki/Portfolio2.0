@@ -21,10 +21,16 @@ const data = [
   },
  
   {
-    label: "PROJECTS",
-    to: "/projects",
+    label: "EXPERIENCE",
+    to: "/experience",
   }
   ,
+
+  {
+    label: "PROJECTS",
+    to: "/projects",
+  },
+
   {
     label: "CONTACT",
     to: "/contacts",
