@@ -36,18 +36,16 @@ const Contact = () => {
             transform: "translateX(0px)",
           }}
         >
-        <form  
-        name="contact"
-        method="POST"
-        data-netlify="true"
-        onSubmit="submit"
-        >
-        <div className="contact__content__form">
+         <form
+  action="https://formspree.io/f/meqbjdaj"
+  method="POST"
+>
+ <div className="contact__content__form">
             <div className="contact__content__form__controlswrapper">
               <div>
                 <input
                   required
-                  name="name"
+                  name="Name"
                   className="inputName"
                   type={"text"}
                 />
@@ -58,7 +56,7 @@ const Contact = () => {
               <div>
                 <input
                   required
-                  name="email"
+                  name="Email"
                   className="inputEmail"
                   type={"text"}
                 />
@@ -69,7 +67,7 @@ const Contact = () => {
               <div>
                 <textarea
                   required
-                  name="description"
+                  name="Description"
                   className="inputDescription"
                   type={"text"}
                   rows="5"
@@ -82,7 +80,7 @@ const Contact = () => {
               <iframe src="https://embed.lottiefiles.com/animation/90769" width={"300px"}></iframe>
             </div>
 
-            <button>Submit</button>
+            <button type="submit">Send</button>
           </div>
         </form>
          

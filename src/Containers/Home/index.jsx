@@ -71,6 +71,9 @@ const Home = () => {
           <button onClick={download}>My Resume</button>
         </div>
       </Animate>
+
+
+      
     </section>
   );
 };
