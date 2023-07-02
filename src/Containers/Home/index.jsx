@@ -1,11 +1,11 @@
 import React, { useState } from "react";
 import { useNavigate } from "react-router-dom";
 import { Animate } from "react-simple-animate";
-// import "../Home/DIVYANSHURESUME.pdf"
-import Typed from "react-typed"
+// import "../Home/DIVYANSHURESUME.pdf"status
 import "./Style.scss";
 import { saveAs } from 'file-saver';
 import Lottie from "lottie-react"
+import {Typewriter} from 'react-simple-typewriter';
 
 
 const Home = () => {
@@ -14,6 +14,12 @@ const Home = () => {
   const handleNavigateToContactMePage = () => {
     navigate("/contact");
   };
+
+  // const  {text} = useTypewriter({
+
+  //   words: ['Oracle Apex', 'Front-End Developer', 'Back-End Developer'],
+  //   loop: {},
+  // });
 
   const download=()=>{
     saveAs("DIVYANSHURESUME.PDF", "DIVYANSHURESUME.pdf");
@@ -33,20 +39,19 @@ const Home = () => {
     <h1 id="home" >Hi! I'm Divyanshu </h1>
       <div className="home__text-wrapper">
         <h1>
-        <Typed
-
-            strings={[
-                "Oracle Apex",
-                "Front-End Developer",
-                "Back-End Developer"
-
-            ]}
-            typeSpeed={150}
-            backSpeed={100}
-            loop
-            
-            />
-        
+         {/* Style will be inherited from the parent element */}
+         <Typewriter
+            words={['Oracle Apex', 'Front-End Developer', 'Back-End Developer']}
+            loop={0}
+            cursor
+            cursorStyle='_'
+            typeSpeed={70}
+            deleteSpeed={50}
+            delaySpeed={1000}
+          
+          />
+       {/* <Cursor/>
+         */}
          
         </h1>
       </div>
