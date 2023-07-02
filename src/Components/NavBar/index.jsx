@@ -21,7 +21,7 @@ const data = [
   },
  
   {
-    label: "PORJECTS",
+    label: "PROJECTS",
     to: "/projects",
   }
   ,
