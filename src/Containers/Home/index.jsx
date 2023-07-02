@@ -4,6 +4,7 @@ import { Animate } from "react-simple-animate";
 // import "../Home/DIVYANSHURESUME.pdf"status
 import "./Style.scss";
 import { saveAs } from 'file-saver';
+import { AiFillCopy } from 'react-icons/ai';
 import Lottie from "lottie-react"
 import {Typewriter} from 'react-simple-typewriter';
 import {CopyToClipboard} from 'react-copy-to-clipboard';
@@ -69,7 +70,7 @@ const Home = () => {
       >
         <div className="home__contact-me">
         <CopyToClipboard text="divyanshujamloki05@gmail.com">
-  <button>My Contact</button>
+  <button  > <AiFillCopy/> E-mail</button>
 </CopyToClipboard>
         
         </div>

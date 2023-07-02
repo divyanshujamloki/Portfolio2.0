@@ -22,10 +22,10 @@ export default function Experience() {
         <VerticalTimeline>
           <VerticalTimelineElement
             className="vertical-timeline-element--work"
-            contentStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
-            contentArrowStyle={{ borderRight: "7px solid  rgb(33, 150, 243)" }}
+            contentStyle={{ background: "rgb(67 73 78)", color: "#fff" }}
+            contentArrowStyle={{ borderRight: "7px solid  rgb(67 73 78)" }}
             
-            iconStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
+            iconStyle={{ background: "rgb(67 73 78)", color: "#fff" }}
           >
             <h3 className="vertical-timeline-element-title">
             Aveti Learning
@@ -37,10 +37,10 @@ export default function Experience() {
           </VerticalTimelineElement>
           <VerticalTimelineElement
             className="vertical-timeline-element--work"
-            contentStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
-            contentArrowStyle={{ borderRight: "7px solid  rgb(33, 150, 243)" }}
+            contentStyle={{ background: "rgb(67 73 78)", color: "#fff" }}
+            contentArrowStyle={{ borderRight: "7px solid  rgb(67 73 78)" }}
             
-            iconStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
+            iconStyle={{ background: "rgb(67 73 78)", color: "#fff" }}
           >
             <h3 className="vertical-timeline-element-title">
             Tech Sprint
@@ -52,10 +52,10 @@ export default function Experience() {
           </VerticalTimelineElement>
           <VerticalTimelineElement
             className="vertical-timeline-element--work"
-            contentStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
-            contentArrowStyle={{ borderRight: "7px solid  rgb(33, 150, 243)" }}
+            contentStyle={{ background: "rgb(67 73 78)", color: "#fff" }}
+            contentArrowStyle={{ borderRight: "7px solid  rgb(67 73 78)" }}
           
-            iconStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
+            iconStyle={{ background: "rgb(67 73 78)", color: "#fff" }}
           >
             <h3 className="vertical-timeline-element-title">
             Invictus 2023
@@ -67,10 +67,10 @@ export default function Experience() {
           </VerticalTimelineElement>
           <VerticalTimelineElement
             className="vertical-timeline-element--work"
-            contentStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
-            contentArrowStyle={{ borderRight: "7px solid  rgb(33, 150, 243)" }}
+            contentStyle={{ background: "rgb(67 73 78)", color: "#fff" }}
+            contentArrowStyle={{ borderRight: "7px solid  rgb(67 73 78)" }}
            
-            iconStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
+            iconStyle={{ background: "rgb(67 73 78)", color: "#fff" }}
           >
             <h3 className="vertical-timeline-element-title">
             AKTU Annual Fest - Zonals
@@ -82,10 +82,10 @@ export default function Experience() {
           </VerticalTimelineElement>
           <VerticalTimelineElement
             className="vertical-timeline-element--work"
-            contentStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
-            contentArrowStyle={{ borderRight: "7px solid  rgb(33, 150, 243)" }}
+            contentStyle={{ background: "rgb(67 73 78)", color: "#fff" }}
+            contentArrowStyle={{ borderRight: "7px solid  rgb(67 73 78)" }}
             
-            iconStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
+            iconStyle={{ background: "rgb(67 73 78)", color: "#fff" }}
           >
             <h3 className="vertical-timeline-element-title">Victory Point
             </h3>
@@ -97,10 +97,10 @@ export default function Experience() {
 
           <VerticalTimelineElement
             className="vertical-timeline-element--work"
-            contentStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
-            contentArrowStyle={{ borderRight: "7px solid  rgb(33, 150, 243)" }}
+            contentStyle={{ background: "rgb(67 73 78)", color: "#fff" }}
+            contentArrowStyle={{ borderRight: "7px solid  rgb(67 73 78)" }}
            
-            iconStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
+            iconStyle={{ background: "rgb(67 73 78)", color: "#fff" }}
           >
             <h3 className="vertical-timeline-element-title">Engineering C.S.E
             </h3>
@@ -115,10 +115,10 @@ export default function Experience() {
           
           <VerticalTimelineElement
             className="vertical-timeline-element--work"
-            contentStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
-            contentArrowStyle={{ borderRight: "7px solid  rgb(33, 150, 243)" }}
+            contentStyle={{ background: "rgb(67 73 78)", color: "#fff" }}
+            contentArrowStyle={{ borderRight: "7px solid  rgb(67 73 78)" }}
             
-            iconStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
+            iconStyle={{ background: "rgb(67 73 78)", color: "#fff" }}
           >
             <h3 className="vertical-timeline-element-title">12th
             </h3>
@@ -132,10 +132,10 @@ export default function Experience() {
  
           <VerticalTimelineElement
             className="vertical-timeline-element--work"
-            contentStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
-            contentArrowStyle={{ borderRight: "7px solid  rgb(33, 150, 243)" }}
+            contentStyle={{ background: "rgb(67 73 78)", color: "#fff" }}
+            contentArrowStyle={{ borderRight: "7px solid  rgb(67 73 78)" }}
            
-            iconStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
+            iconStyle={{ background: "rgb(67 73 78)", color: "#fff" }}
           >
             <h3 className="vertical-timeline-element-title">10th
             </h3>
