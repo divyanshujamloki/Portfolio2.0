@@ -1,13 +1,38 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+
+/* @import  url(`https://fonts.googleapis.com/css2?family=Roboto+slab:wght@500&display=swapTangerine`); */
+
+
+:root{
+
+--yellow-theme-background-color : #030303;
+--yellow-theme-main-color : #f4f3ef;
+--yellow-theme-sub-text-color : #ffffff;
+--yellow-theme-nav-background-color : #181818;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+
+*{
+
+  box-sizing:border-box;
+  padding:0;
+  margin:0;
+  scroll-behavior: smooth;
+}
+
+html{
+  font-size: 62.5%;
+  height:100%;
+}
+
+
+body{
+  background-color: var(--yellow-theme-background-color);
+ background-image: url(../src/Containers/Asset/bg.webp);
+  background-size: cover;
+   height: 100%;
+}
+
+#root{
+  color: #ffffff;
+  height: 100%;
 }
