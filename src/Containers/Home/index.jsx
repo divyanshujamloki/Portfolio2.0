@@ -6,6 +6,7 @@ import "./Style.scss";
 import { saveAs } from 'file-saver';
 import Lottie from "lottie-react"
 import {Typewriter} from 'react-simple-typewriter';
+import {CopyToClipboard} from 'react-copy-to-clipboard';
 
 
 const Home = () => {
@@ -67,8 +68,10 @@ const Home = () => {
         }}
       >
         <div className="home__contact-me">
+        <CopyToClipboard text="divyanshujamloki05@gmail.com">
+  <button>My Contact</button>
+</CopyToClipboard>
         
-          <button onClick={download}>My Resume</button>
         </div>
       </Animate>
 
