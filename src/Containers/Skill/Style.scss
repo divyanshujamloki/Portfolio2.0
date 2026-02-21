@@ -1,47 +1,72 @@
 .skill {
-    padding: 0 0 50px 0;
-    position: relative;
-  }
-  .skill-bx {
-    background: "none";
-    border-radius: 64px;
-    text-align: center;
-    padding: 60px 50px;
-    margin-top: -60px;
-  }
-  .skill h2 {
-      font-size: 45px;
-      font-weight: 700;
-  }
-  .skill p {
-      color: #B8B8B8;
-      font-size: 18px;
-      letter-spacing: 0.8px;
-      line-height: 1.5em;
-      margin: 14px 0 75px 0;
-  }
-  .skill-slider {
-    width: 80%;
-    margin: 0 auto;
-    position: relative;
-  }
-  .skill-slider .item img {
-    width: 50%;
-    margin: 0 auto 15px auto;
-  }
+  padding: 0;
+  position: relative;
+  min-height: 100vh;
 
-  .react-multiple-carousel__arrow::before {
-    font-size: 20px;
-    color: #fff;
-    display: block;
-    font-family: revicons;
-    text-align: center;
-    z-index: -1;
-    position: relative;
+  .container {
+    padding-top: 60px;
+    padding-bottom: 50px;
+  }
 }
 
-#car{
-z-index: 1;
+.skill-bx {
+  background: none;
+  border-radius: 64px;
+  text-align: center;
+  padding: 20px 0;
+}
+
+.skill h2 {
+  font-size: clamp(2rem, 5vw, 4.5rem);
+  font-weight: 700;
+}
+
+.skill p {
+  color: #B8B8B8;
+  font-size: clamp(1.4rem, 2vw, 1.8rem);
+  letter-spacing: 0.8px;
+  line-height: 1.5em;
+  margin: 14px 0 75px 0;
+}
+
+.skill-slider {
+  width: 95%;
+  margin: 0 auto;
+  position: relative;
+
+  @media (min-width: 768px) {
+    width: 80%;
+  }
+}
+
+.skill-slider .item img {
+  width: 40%;
+  max-width: 150px;
+  margin: 0 auto 15px auto;
+}
+
+@media (max-width: 600px) {
+  .skill-bx {
+    padding: 30px 20px;
+  }
+
+  .item h2 {
+    font-size: 1.8rem;
+  }
+}
+
+.react-multiple-carousel__arrow::before {
+  font-size: 20px;
+  color: #fff;
+  display: block;
+  font-family: revicons;
+  text-align: center;
+  z-index: -1;
+  position: relative;
+}
+
+#car {
+  z-index: 1;
 }
 
 
@@ -53,4 +78,3 @@ z-index: 1;
 //     width: 40%;
 //     z-index: -4;
 //   }
-  

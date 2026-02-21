@@ -32,14 +32,11 @@ export default function Skills() {
 
   return (
     <div>
-      <section id="skills" className="skills">
+      <section id="skills" className="skill">
         <PageHeaderContent
           headerText="Skills"
           icon={<BsInfoCircleFill size={40} />}
         />
-      </section>
-
-      <section className="skill" id="skills">
         <div className="container">
           <div className="row">
             <div className="col-12">
@@ -53,22 +50,53 @@ export default function Skills() {
                   >
                     <div className="item">
                       <img src={bulb} alt="Image" />
-                      <h2>React js </h2>
+                      <h2>JavaScript</h2>
                     </div>
 
                     <div className="item">
                       <img src={bulb} alt="Image" />
-                      <h2>JavaScript </h2>
+                      <h2>React JS</h2>
                     </div>
 
                     <div className="item">
                       <img src={bulb} alt="Image" />
-                      <h2>Node.js </h2>
+                      <h2>Node JS</h2>
+                    </div>
+
+
+                    <div className="item">
+                      <img src={bulb} alt="Image" />
+                      <h2>Redux Toolkit</h2>
                     </div>
 
                     <div className="item">
                       <img src={bulb} alt="Image" />
-                      <h2>Oracle Apex </h2>
+                      <h2>FullStack Developer</h2>
+                    </div>
+
+                    <div className="item">
+                      <img src={bulb} alt="Image" />
+                      <h2>MySQL / SQL</h2>
+                    </div>
+
+                    <div className="item">
+                      <img src={bulb} alt="Image" />
+                      <h2>AWS</h2>
+                    </div>
+
+                    <div className="item">
+                      <img src={bulb} alt="Image" />
+                      <h2>GCP</h2>
+                    </div>
+
+                    <div className="item">
+                      <img src={bulb} alt="Image" />
+                      <h2>Cpanel</h2>
+                    </div>
+
+                    <div className="item">
+                      <img src={bulb} alt="Image" />
+                      <h2>C++</h2>
                     </div>
 
                     <div className="item">
@@ -78,22 +106,7 @@ export default function Skills() {
 
                     <div className="item">
                       <img src={bulb} alt="Image" />
-                      <h2>Pyhton </h2>
-                    </div>
-
-                    <div className="item">
-                      <img src={bulb} alt="Image" />
-                      <h2>Java </h2>
-                    </div>
-
-                    <div className="item">
-                      <img src={bulb} alt="Image" />
-                      <h2>SQL </h2>
-                    </div>
-
-                    <div className="item">
-                      <img src={bulb} alt="Image" />
-                      <h2>PL/SQL</h2>
+                      <h2>Bootstrap/MUI</h2>
                     </div>
                   </Carousel>
                 </div>

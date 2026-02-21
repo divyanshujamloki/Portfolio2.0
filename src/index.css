@@ -1,38 +1,49 @@
-
 /* @import  url(`https://fonts.googleapis.com/css2?family=Roboto+slab:wght@500&display=swapTangerine`); */
 
 
-:root{
+:root {
 
---yellow-theme-background-color : #030303;
---yellow-theme-main-color : #f4f3ef;
---yellow-theme-sub-text-color : #ffffff;
---yellow-theme-nav-background-color : #181818;
+  --yellow-theme-background-color: #030303;
+  --yellow-theme-main-color: #f4f3ef;
+  --yellow-theme-sub-text-color: #ffffff;
+  --yellow-theme-nav-background-color: #181818;
 }
 
 
-*{
+* {
 
-  box-sizing:border-box;
-  padding:0;
-  margin:0;
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
   scroll-behavior: smooth;
 }
 
-html{
+html {
   font-size: 62.5%;
-  height:100%;
+  height: 100%;
+  overflow-x: hidden;
+}
+
+*::-webkit-scrollbar {
+  display: none;
+}
+
+* {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
 }
 
 
-body{
+body {
   background-color: var(--yellow-theme-background-color);
- background-image: url(../src/Containers/Asset/bg.webp);
+  background-image: url(../src/Containers/Asset/bg.webp);
   background-size: cover;
-   height: 100%;
+  background-attachment: fixed;
+  height: 100%;
+  overflow-x: hidden;
 }
 
-#root{
+#root {
   color: #ffffff;
   height: 100%;
 }

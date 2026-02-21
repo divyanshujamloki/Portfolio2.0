@@ -3,13 +3,14 @@
     align-items: center;
     padding: 20px;
     border-bottom: 1px dashed var(--yellow-theme-main-color);
+}
 
-
-    h2{
-        font-size: 36px;
+.wrapper {
+    h2 {
+        font-size: clamp(2.5rem, 5vw, 3.6rem);
         font-weight: 700;
         letter-spacing: 1.5px;
-        line-height: 1rem;
+        line-height: 1.2;
         text-transform: capitalize;
         color: var(--yellow-theme-main-color);
         display: flex;
@@ -17,7 +18,7 @@
     }
 
     span {
-        svg{
+        svg {
             color: var(--yellow-theme-main-color);
         }
     }

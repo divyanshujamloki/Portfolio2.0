@@ -11,37 +11,25 @@ const ImageOne = "https://user-images.githubusercontent.com/77928275/237051892-5
 const ImageTwo = "https://user-images.githubusercontent.com/77928275/249864035-f303e38b-cab6-43f2-b778-32099a2883ff.png";
 const ImageThree = "https://user-images.githubusercontent.com/77928275/200170481-4232c978-bdcd-4552-b80c-ff652630d832.png";
 const ImageFour = "https://png.pngtree.com/png-clipart/20220621/original/pngtree-work-in-progress-warning-sign-with-yellow-and-black-stripes-painted-png-image_8161322.png";
-const ImageFive= "https://png.pngtree.com/png-clipart/20220621/original/pngtree-work-in-progress-warning-sign-with-yellow-and-black-stripes-painted-png-image_8161322.png";
+const ImageFive = "https://png.pngtree.com/png-clipart/20220621/original/pngtree-work-in-progress-warning-sign-with-yellow-and-black-stripes-painted-png-image_8161322.png";
 const portfolioData = [
   {
+    id: 1,
+    name: "Viblo - AI Video Platform",
+    image: "https://images.unsplash.com/photo-1611162617213-7d7a39e9b1d7?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80", // AI/Video related image
+    link: "https://viblo.ai/",
+  },
+  {
     id: 2,
-    name: "Ecommerce",
+    name: "Ecommerce (D-COMM)",
     image: ImageOne,
     link: "https://github.com/divyanshujamloki/D-COMM",
   },
   {
     id: 3,
-    name: "B.M.I",
-    link: "https://github.com/divyanshujamloki/B.M.I",
-    image: ImageTwo,
-  },
-  {
-    id: 2,
     name: "Spotify-clone",
     image: ImageThree,
     link: "https://github.com/divyanshujamloki/SpotifyClone",
-  },
-  {
-    id: 2,
-    name: "Netflix-Clone !Ongoing",
-    image: ImageFour,
-    link: "https://github.com/divyanshujamloki?tab=repositories",
-  },
-  {
-    id: 3,
-    name: "Image Downloader !Ongoing",
-    image: ImageFive,
-    link: "https://github.com/divyanshujamloki?tab=repositories",
   },
 ];
 
@@ -51,7 +39,7 @@ const filterData = [
     label: "Top Best Projects",
 
   },
- 
+
 ];
 
 
@@ -106,19 +94,17 @@ const Portfolio = () => {
               onMouseLeave={() => handleHover(null)}
             >
               <div className="portfolio__content__cards__item__img-wrapper">
-                <a>
+                <a href={item.link} target="_blank" rel="noopener noreferrer">
                   <img alt="Image" src={item.image} />
                 </a>
               </div>
               <div className="overlay">
-                {index === hoveredValue && (
-                  <div>
-                    <p>{item.name}</p>
-                    <Link to="https://github.com/divyanshujamloki?tab=repositories">
-                    <button >Visit</button>
-                    </Link>
-                  </div>
-                )}
+                <div>
+                  <p>{item.name}</p>
+                  <a href={item.link} target="_blank" rel="noopener noreferrer">
+                    <button>Visit</button>
+                  </a>
+                </div>
               </div>
             </div>
           ))}

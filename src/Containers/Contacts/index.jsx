@@ -23,7 +23,7 @@ const Contact = () => {
             transform: "translateX(0px)",
           }}
         >
-          <h3 className="contact__content__header-text" style={{color:"white"}}>Get In Touch</h3>
+          <h3 className="contact__content__header-text" style={{ color: "white" }}>Get In Touch</h3>
         </Animate>
         <Animate
           play
@@ -36,55 +36,60 @@ const Contact = () => {
             transform: "translateX(0px)",
           }}
         >
-         <form
-  action="https://formspree.io/f/meqbjdaj"
-  method="POST"
->
- <div className="contact__content__form">
-            <div className="contact__content__form__controlswrapper">
-              <div>
-                <input
-                  required
-                  name="Name"
-                  className="inputName"
-                  type={"text"}
-                />
-                <label htmlFor="name" className="nameLabel">
-                  Name
-                </label>
-              </div>
-              <div>
-                <input
-                  required
-                  name="Email"
-                  className="inputEmail"
-                  type={"text"}
-                />
-                <label htmlFor="email" className="emailLabel">
-                  Email
-                </label>
-              </div>
-              <div>
-                <textarea
-                  required
-                  name="Description"
-                  className="inputDescription"
-                  type={"text"}
-                  rows="5"
-                />
-                <label htmlFor="description" className="descriptionLabel">
-                  Description
-                </label>
-                
-              </div>
-              <iframe src="https://embed.lottiefiles.com/animation/90769" width={"300px"}></iframe>
-            </div>
+          <form
+            action="https://formspree.io/f/meqbjdaj"
+            method="POST"
+          >
+            <div className="contact__content__form">
+              <div className="contact__content__form__controlswrapper">
+                <div>
+                  <input
+                    required
+                    name="Name"
+                    className="inputName"
+                    type={"text"}
+                  />
+                  <label htmlFor="name" className="nameLabel">
+                    Name
+                  </label>
+                </div>
+                <div>
+                  <input
+                    required
+                    name="Email"
+                    className="inputEmail"
+                    type={"text"}
+                  />
+                  <label htmlFor="email" className="emailLabel">
+                    Email
+                  </label>
+                </div>
+                <div>
+                  <textarea
+                    required
+                    name="Description"
+                    className="inputDescription"
+                    type={"text"}
+                    rows="5"
+                  />
+                  <label htmlFor="description" className="descriptionLabel">
+                    Description
+                  </label>
 
-            <button type="submit">Send</button>
-          </div>
-        </form>
-         
-          
+                </div>
+                <iframe
+                  src="https://embed.lottiefiles.com/animation/90769"
+                  width={"300px"}
+                  frameBorder="0"
+                  style={{ border: 'none' }}
+                ></iframe>
+              </div>
+
+              <button type="submit">Send</button>
+            </div>
+          </form>
+
+
         </Animate>
       </div>
     </section>
