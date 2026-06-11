@@ -24,7 +24,7 @@ const Home = () => {
   // });
 
   const download = () => {
-    saveAs("DIVYANSHURESUME.PDF", "DIVYANSHURESUME.pdf");
+    saveAs("DIVYANSHURESUME.pdf", "DIVYANSHURESUME.pdf");
   }
   <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
 
