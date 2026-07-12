@@ -79,6 +79,7 @@ const Contact = () => {
                 </div>
                 <iframe
                   src="https://embed.lottiefiles.com/animation/90769"
+                  title="Contact animation"
                   width={"300px"}
                   frameBorder="0"
                   style={{ border: 'none' }}
