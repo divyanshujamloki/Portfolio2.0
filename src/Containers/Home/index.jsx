@@ -1,21 +1,14 @@
-import React, { useState } from "react";
-import { useNavigate } from "react-router-dom";
+import React from "react";
 import { Animate } from "react-simple-animate";
 // import "../Home/DIVYANSHURESUME.pdf"status
 import "./Style.scss";
 import { saveAs } from 'file-saver';
 import { AiFillCopy } from 'react-icons/ai';
-import Lottie from "lottie-react"
 import { Typewriter } from 'react-simple-typewriter';
 import { CopyToClipboard } from 'react-copy-to-clipboard';
 
 
 const Home = () => {
-  const navigate = useNavigate();
-
-  const handleNavigateToContactMePage = () => {
-    navigate("/contact");
-  };
 
   // const  {text} = useTypewriter({
 
@@ -34,10 +27,11 @@ const Home = () => {
 
       <div>
 
-        <h3 id="box"></h3>
+        <div id="box"></div>
 
         <iframe
           src="https://embed.lottiefiles.com/animation/64732"
+          title="Home animation"
           frameBorder="0"
           style={{ border: 'none' }}
         ></iframe>

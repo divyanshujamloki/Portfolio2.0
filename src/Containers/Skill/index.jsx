@@ -1,7 +1,6 @@
 import React from "react";
 import PageHeaderContent from "../../Components/PageHeader";
 import { BsInfoCircleFill } from "react-icons/bs";
-import { Container, Col, Row } from "react-bootstrap";
 import "react-multi-carousel/lib/styles.css";
 import bulb from "../Asset/bulbi.png";
 import Carousel from "react-multi-carousel";
@@ -49,63 +48,63 @@ export default function Skills() {
                     className="owl-carousel owl-theme skill-slider"
                   >
                     <div className="item">
-                      <img src={bulb} alt="Image" />
+                      <img src={bulb} alt="Bulb icon" />
                       <h2>JavaScript</h2>
                     </div>
 
                     <div className="item">
-                      <img src={bulb} alt="Image" />
+                      <img src={bulb} alt="Bulb icon" />
                       <h2>React JS</h2>
                     </div>
 
                     <div className="item">
-                      <img src={bulb} alt="Image" />
+                      <img src={bulb} alt="Bulb icon" />
                       <h2>Node JS</h2>
                     </div>
 
 
                     <div className="item">
-                      <img src={bulb} alt="Image" />
+                      <img src={bulb} alt="Bulb icon" />
                       <h2>Redux Toolkit</h2>
                     </div>
 
                     <div className="item">
-                      <img src={bulb} alt="Image" />
+                      <img src={bulb} alt="Bulb icon" />
                       <h2>FullStack Developer</h2>
                     </div>
 
                     <div className="item">
-                      <img src={bulb} alt="Image" />
+                      <img src={bulb} alt="Bulb icon" />
                       <h2>MySQL / SQL</h2>
                     </div>
 
                     <div className="item">
-                      <img src={bulb} alt="Image" />
+                      <img src={bulb} alt="Bulb icon" />
                       <h2>AWS</h2>
                     </div>
 
                     <div className="item">
-                      <img src={bulb} alt="Image" />
+                      <img src={bulb} alt="Bulb icon" />
                       <h2>GCP</h2>
                     </div>
 
                     <div className="item">
-                      <img src={bulb} alt="Image" />
+                      <img src={bulb} alt="Bulb icon" />
                       <h2>Cpanel</h2>
                     </div>
 
                     <div className="item">
-                      <img src={bulb} alt="Image" />
+                      <img src={bulb} alt="Bulb icon" />
                       <h2>C++</h2>
                     </div>
 
                     <div className="item">
-                      <img src={bulb} alt="Image" />
+                      <img src={bulb} alt="Bulb icon" />
                       <h2>Postman</h2>
                     </div>
 
                     <div className="item">
-                      <img src={bulb} alt="Image" />
+                      <img src={bulb} alt="Bulb icon" />
                       <h2>Bootstrap/MUI</h2>
                     </div>
                   </Carousel>
@@ -114,7 +113,7 @@ export default function Skills() {
             </div>
           </div>
         </div>
-        <img className="background-image-left" src={colorSharp} alt="Image" />
+        <img className="background-image-left" src={colorSharp} alt="Background glow" />
       </section>
     </div>
   );

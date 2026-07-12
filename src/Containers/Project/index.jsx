@@ -5,13 +5,9 @@ import "./Style.scss";
 
 
 import { useState } from "react";
-import { Link } from "react-router-dom";
 
 const ImageOne = "https://user-images.githubusercontent.com/77928275/237051892-51caafc3-fbf2-420b-b1c6-536a007279c5.png";
-const ImageTwo = "https://user-images.githubusercontent.com/77928275/249864035-f303e38b-cab6-43f2-b778-32099a2883ff.png";
 const ImageThree = "https://user-images.githubusercontent.com/77928275/200170481-4232c978-bdcd-4552-b80c-ff652630d832.png";
-const ImageFour = "https://png.pngtree.com/png-clipart/20220621/original/pngtree-work-in-progress-warning-sign-with-yellow-and-black-stripes-painted-png-image_8161322.png";
-const ImageFive = "https://png.pngtree.com/png-clipart/20220621/original/pngtree-work-in-progress-warning-sign-with-yellow-and-black-stripes-painted-png-image_8161322.png";
 const portfolioData = [
   {
     id: 1,
@@ -95,7 +91,7 @@ const Portfolio = () => {
             >
               <div className="portfolio__content__cards__item__img-wrapper">
                 <a href={item.link} target="_blank" rel="noopener noreferrer">
-                  <img alt="Image" src={item.image} />
+                  <img alt={item.name} src={item.image} />
                 </a>
               </div>
               <div className="overlay">
